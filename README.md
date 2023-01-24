@@ -12,3 +12,6 @@ http://localhost:8000/api/todo/update/{id}  ile eklemiş olduğunuz veriyi günc
 http://localhost:8000/api/todo/destroy/{id}  ile eklenen veriyi silebilirsiniz.
 http://localhost:8000/api/todo/update-status/{id}  ile daha önceden eklemiş olduğunuz verinin durumunu 'Bekliyor' konumundan 'Tamamlandı' olarak değiştirebilirsiniz, yalnızca 'status':'Tamamlandı' olarak göndermeniz yeterlidir.
 http://localhost:8000/api/todo/search/{data}  ile todo tablosundaki herhangi bir verinin title yada statusuna göre search yapabilirsiniz.
+
+
+api.postman_collection.json => https://github.com/sena-fid/Rest_Api_TodoApp/blob/master/todo%20api.postman_collection.json
